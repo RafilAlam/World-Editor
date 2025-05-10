@@ -5,7 +5,11 @@
 ---
 
 ## 🎥 Demo  
-_Coming soon: Interactive in-browser preview_
+
+
+https://github.com/user-attachments/assets/4ff208eb-f966-4835-ba9d-69cf3baf65c3
+
+
 
 ---
 
