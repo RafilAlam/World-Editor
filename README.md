@@ -18,7 +18,8 @@ https://github.com/user-attachments/assets/4ff208eb-f966-4835-ba9d-69cf3baf65c3
 - 3D pop-up book visual aesthetic with perspective rendering  
 - Procedural generation of trees, structures, and terrain details  
 - Interactive traffic systems (e.g. lights that sync and react)  
-- Tool markers: stop, caution, pedestrian, traffic light, and more  
+- Tool markers: stop, caution, pedestrian, traffic light, and more
+- Fluid and Lively UI animations
 - Built 100% from scratch — no libraries or engines used
 
 ---
