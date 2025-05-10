@@ -1,0 +1,132 @@
+:root {
+    --bg: #0c0c0c;
+    --border: #303030;
+    --color: #7e7e7e;
+}
+
+h1{
+    color: hsl(0, 0%, 50%);
+    font-family:'Candara';
+}
+
+span {
+    font-family: Bauhaus Soft;
+    font-size: 1.3em;
+}
+
+html, 
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    background: var(--bg);
+    background-image: url("background.jpg");
+}
+
+button, label {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: larger;
+    border-radius: 20px;
+
+}
+
+.container {
+    width: max-content;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto 2em auto;
+    padding: 1em 0.5em;
+    display: flex;
+    justify-content: bottom;
+    background-color: var(--bg);
+    border: 3px solid var(--border);
+    border-radius: 100px;
+    box-shadow: 0px 1px 1px rgba(222, 222, 222, 0.08),
+    0px 5px 4px rgba(222, 222, 222, 0.06),
+    0px 12px 9px rgba(222, 222, 222, 0.05),
+    0px 20px 15px rgba(222, 222, 222, 0.03),
+    0px 32px 24px rgba(222, 222, 222, 0.02);
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.dock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dock-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    outline: rgb(63, 63, 63) 1px solid;
+    margin: 0 5px;
+    background: var(--bg);
+    color: var(--color);
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-origin: bottom;
+
+    box-shadow:  20px 20px 60px #050505,
+             -20px -20px 60px #131313;
+}
+
+#myCanvas{
+    background-color: rgb(93, 122, 99);
+    justify-content: center;
+    outline: rgb(63, 63, 63) 3px solid;
+    border-radius: 25px;
+    box-shadow:  20px 20px 60px #151515,
+    -20px -20px 60px #2d2d2d;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#osmPanel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 100vw;
+}
+
+#osmBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(14, 14, 14);
+    outline: rgb(43, 43, 43) 3px solid;
+    border-radius: 10px;
+    padding: 1vw;
+}
+
+#osmDataContainer {
+    background-color: rgb(31, 31, 31);
+    color: rgb(128, 128, 128);
+    border-radius: 10px;
+    outline: rgb(31, 31, 31) 3px solid;
+}
